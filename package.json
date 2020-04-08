@@ -1,0 +1,23 @@
+{
+  "name": "js-boilerplate",
+  "version": "1.0.1",
+  "description": "Javascript Boilerplate",
+  "author": "Meysam Valiolahi <mvaliolahi@gmail.com> (http://mvaliolahi.ir)",
+  "main": "dist/index.js",
+  "scripts": {
+    "watch": "watch 'npm run build' src",
+    "watch:windows": "watch \"npm run build\" src",
+    "build": "babel src -d dist",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "prepublish": "npm run build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "jest": "^25.2.7",
+    "watch": "^1.0.2"
+  }
+}

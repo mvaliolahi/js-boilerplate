@@ -1,7 +1,7 @@
 {
-  "name": "time-tracker",
+  "name": "js-boilerplate",
   "version": "1.0.1",
-  "description": "JS Time tracker",
+  "description": "js-boilerplate",
   "author": "Meysam Valiolahi <mvaliolahi@gmail.com> (http://mvaliolahi.ir)",
   "main": "dist/index.js",
   "scripts": {
@@ -23,6 +23,6 @@
     "watch": "^0.13.0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.9.2"
+    "@babel/runtime": "^7.24.4"
   }
 }
